@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple Calculator</title>
+	<script type="text/javascript">
+		function Calculator(){
+			let AValue = document.getElementById("AValue").value;
+			let BValue = document.getElementById("BValue").value;
+			let Remainder = Number(AValue) % Number(BValue);
+			let Sum = Number(AValue) + Number(BValue);
+			let Difference = Number(AValue) - Number(BValue);
+			let Quotient = Number(AValue) / Number(BValue);
+			let Product = Number(AValue) * Number(BValue);
+
+			document.getElementById("sum").value= Sum;
+			document.getElementById("difference").value= Difference;
+			document.getElementById("product").value= Product;
+			document.getElementById("quotient").value= Quotient;
+			document.getElementById("remainder").value= Remainder;
+			console.log(Sum);
+			console.log(Difference);
+			console.log(Quotient);
+			console.log(Product);
+			console.log(Remainder);
+
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id= "AValue"></br>
+	<input type="text" id= "BValue"></br>
+	<input type="text" id= "sum" placeholder="Sum of A and B">Sum of A and B</br>
+	<input type="text" id= "difference" placeholder="Difference of A and B">Difference of A and B</br>
+	<input type="text" id= "remainder" placeholder="Remainder of A and B">Remainder of A and B</br>
+	<input type="text" id= "quotient" placeholder="Quotient of A and B">Quotient of A and B</br>
+	<input type="text" id= "product" placeholder="Product of A and B">Product of A and B</br>
+
+
+
+
+	<input type="button" value="=" onclick="Calculator()"></br>
+</body>
+</html>

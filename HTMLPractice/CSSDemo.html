@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Demo</title>
+
+	<style type="text/css">
+
+		#MainTable{
+			border-collapse: collapse;
+			width: 100%;
+			text-align: center;
+			
+		}
+		
+		#MainTable tr:nth-child(even){
+			background-color:lightblue;
+		}
+
+		#MainTable td, #MainTable tr, #MainTable th{
+			border:2px #ddd solid;
+		}
+		#MainTable .Days {
+				width:10%;
+		}
+		#MainTable th{
+			background-color: skyblue;
+		}
+		#MainTable td{
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div id="MainDiv">
+		<table id="MainTable">
+			<tr>
+				<th class="Days"><h1>Days/Shifts </h1></th>
+				<th><h1>Morning </h1></th>
+				<th><h1>Night </h1></th>
+			</tr>
+			<tr>
+				<td class="Days"><h1>Monday</h1></td>
+				<td><h2>A</h2></td>
+				<td><h2>B</h2></td>
+
+			</tr>
+			<tr>
+				<td class="Days"><h1>Tuesday</h1></td>
+				<td><h2>C</h2></td>
+				<td><h2>D</h2></td>
+
+			</tr>
+			<tr>
+				<td class="Days"><h1>Wednesday</h1></td>
+				<td><h2>E</h2></td>
+				<td><h2>F</h2></td>
+
+			</tr>
+			<tr>
+				<td class="Days"><h1>Thursday</h1></td>
+				<td><h2>G</h2></td>
+				<td><h2>H</h2></td>
+
+			</tr>
+			<tr>
+				<td class="Days"><h1>Friday</h1></td>
+				<td><h2>I</h2></td>
+				<td><h2>J</h2></td>
+
+			</tr>
+		</table>
+</body>
+</html>

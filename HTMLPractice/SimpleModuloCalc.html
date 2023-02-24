@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple Modulus Calculator</title>
+	<script type="text/javascript">
+		function Remainder(){
+			let AValue = document.getElementById("AValue").value;
+			let BValue = document.getElementById("BValue").value;
+			let remainder = Number(AValue) % Number(BValue);
+			document.getElementById("%").value = remainder;
+			console.log(AValue);
+			console.log("%");	
+			console.log(BValue);
+			console.log(remainder);
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id= "AValue"></br>
+	<input type="text" id= "BValue"></br>
+	<input type="text" id= "%"></br>
+	<input type="button" value="=" onclick="Remainder()"></br>
+</body>
+</html>

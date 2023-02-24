@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Manip Demo</title>
+	<style type="text/css">
+		#Header{
+			color:red;
+		}
+
+	</style>
+	<script type="text/javascript">
+		
+		function ChangeS(){
+
+			document.getElementById("Header").style.color="blue";
+		}
+
+		function RevertC(){
+
+			document.getElementById("Header").removeAttribute("style");
+
+		}
+
+		function MakeTextBox(){
+
+			var Z="";
+
+			let HMany = document.getElementById("NumberText").value;
+
+			for (var i=0 ; i < Number(HMany) ; i++ ){
+				document.createTextNode("TBox");
+			}
+
+
+		}
+
+	</script>
+
+</head>
+<body>
+	<h1 id="Header">HELLO</h1>
+	<button onclick="ChangeS()">Change Color</button>
+	<button onclick="RevertC()">Revert Color</button>
+	<br>
+	<label for="NumberText"> How Many Textboxes should we make?</label>
+	<br>
+	<input type="text" id="NumberText" placeholder="Add how many textboxes?">
+	<br>
+	<button onclick="MakeTextBox()">start</button>
+	<input type="text" id = "TBox">
+
+</body>
+</html>

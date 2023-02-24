@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poster Demo</title>
+	<style>
+		
+
+		#Poster{
+			background-image: url(Images/PsterB3.jpg);
+			width: 640px;
+			height: 896px;
+			margin: 0 auto;
+			background-repeat: no-repeat;
+			border:2px solid black;
+			display: none;
+
+
+		}
+
+		table{
+			width: 640px;
+			height: 50px;
+
+		}
+
+		.Important{
+			text-shadow: 
+			4px 4px 0px #d5d5d5, 
+			7px 7px 0px rgba(0, 0, 0, 0.2);
+		}
+
+	</style>
+	<script type="text/javascript">
+		
+		function ShowP(){
+			document.getElementById("Poster").style.display="block";
+		}
+		function HideP(){
+			document.getElementById("Poster").style.display="none";
+		}	
+	</script>
+</head>
+<body>
+	<div id="MainDiv" >
+		<div id="Poster">
+			<table >
+				<tr>	
+					<td></td>
+					<td colspan="2"><h1 style = "color:rgb(76,92,205);text-align: center;font-family: Garamond, serif;font-size: 50px;margin-bottom: 15px"><br><br><br></h1></td>
+					<td></td>
+				</tr>
+				<tr>	
+					<td></td>
+					<td colspan="2"><h1 class="Important" style = "color:rgb(76,92,205);text-align: center;font-family: Garamond, serif;font-size: 100px;margin-top: 0px; margin-bottom: 0px"> Mega Sale <br>50% OFF!</h1></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="2"><h3 style = "color:rgb(76,92,205);text-align: center;font-family: Garamond, serif;margin-top: 0px;font-size:40px; margin-bottom: 0px; color: white;background-color:rgb(76,92,205);">January 20 - January 26 <br> Mega Mall</h3></td>
+					<td></td>
+				</tr>
+				<tr>	
+					<td></td>
+					<td colspan="2"><h1 class="Important" style = "color:rgb(76,92,205);text-align: center;font-family: Garamond, serif;font-size: 60px;margin-top: 0px; margin-bottom: 0px"> CLOTHING STORE</h1></td>
+					<td></td>
+				</tr>
+
+
+
+			</table>
+
+
+
+
+		</div>
+		<button id="ShowB" onclick="ShowP()">Click to show Poster</button>
+		<button id="HideB" onclick="HideP()">Click to Hide Poster</button>
+	</div>
+
+
+
+</body>
+</html>

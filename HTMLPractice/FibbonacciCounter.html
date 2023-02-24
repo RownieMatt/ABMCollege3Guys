@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonnacci Counter</title>
+
+	<script type="text/javascript">
+		
+		function FibCount(){
+
+			var TotalNumber = document.getElementById("IDLimit").value;
+			var FirstTerm = 0;
+			var SecondTerm = 1;
+			var NextTerm;
+
+			for (let i = 1 ; i <= TotalNumber; i++){
+				console.log (FirstTerm);
+				NextTerm = Number(FirstTerm) + Number(SecondTerm);
+				FirstTerm = SecondTerm;
+				SecondTerm = NextTerm;
+			}
+		document.getElementById("IDOutput").innerHTML = FirstTerm;
+
+		}
+
+	</script>
+</head>
+<body>
+	<input type="text" id="IDLimit">Put until what number Fibbonacci series ends</br>
+	<input type= "button" value="start" onclick="FibCount()"></br>
+
+	<p id="IDOutput" placeholder="Output shown here."></p>
+
+</body>
+</html>

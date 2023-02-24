@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple Addition Calculator</title>
+	<script type="text/javascript">
+		function ADD(){
+			let AValue = document.getElementById("AValue").value;
+			let BValue = document.getElementById("BValue").value;
+			let sum = Number(AValue) + Number(BValue);
+			document.getElementById("+").value = sum;
+			console.log("ADD");
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id= "AValue"></br>
+	<input type="text" id= "BValue"></br>
+	<input type="text" id= "+"></br>
+	<input type="button" value="+" onclick="ADD()"></br>
+</body>
+</html>

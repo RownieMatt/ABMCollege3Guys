@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>Navbar </title>
+	<style type="text/css">
+
+		body{
+			background-color:royalblue ;
+		}
+		header{
+			background-color: lightblue;
+			margin:0 auto;
+			padding:150px;
+			list-style-type:none;
+			display:block;
+			height: 25%;
+			width: 25%;
+		}
+		button{
+			background-color: darkblue;
+			color: white;
+	  		padding: 16px;
+	  		font-size: 16px;
+			border: black;
+			cursor: pointer;
+		}
+		.NavbarContent{
+			hight:25%;
+			width: 100%;
+			background-color: lightskyblue;
+			display: inline-block;
+		}
+		.Navbar1{
+			float:left;
+		}
+		.Navbar2{
+			float:right;
+		}
+
+		.Navbar3{
+			float:left;
+		}
+
+		.N1Content,.N2Content, .N3Content{
+			display: none;
+			position: relative;
+			background-color: powderblue;
+			min-width: auto;
+			height: 25%;
+
+		}
+		.N1Content a,.N2Content a, .N3Content a{
+			display: block;
+			text-align: center;
+
+		}
+
+
+
+
+
+		.N1Content a:hover{background-color: steelblue;}
+		.Navbar1:hover .N1Content{display: block;}
+		.Navbar1:hover .Navbar1Butt{background-color: cadetblue;}
+
+		.N2Content a:hover{background-color: steelblue;}
+		.Navbar2:hover .N2Content{display: block;}
+		.Navbar2:hover .Navbar2Butt{background-color: cadetblue;}
+
+		.N3Content a:hover{background-color: steelblue;}
+		.Navbar3:hover .N3Content{display: block;}
+		.Navbar3:hover .Navbar3Butt{background-color: cadetblue;}
+
+
+	</style>
+</head>
+<body>
+	<div class= "header">
+			<div class= "NavbarContent">
+				<div class = "Navbar1">
+					<button class= "Navbar1Butt">Menu 1</button>
+					<div class= "N1Content">
+						<a href="#">M1 content 1 </a>
+						<a href="#">M1 content 2 </a>	
+						<a href="#">M1 content 3 </a>						
+					</div>
+				</div>
+				<div class = "Navbar2">
+					<button class= "Navbar2Butt">Menu 2</button>
+					<div class= "N2Content">
+						<a href="#">M2 content 1 </a>
+						<a href="#">M2 content 2 </a>	
+						<a href="#">M2 content 3 </a>
+				</div>
+				<div class = "Navbar3">
+					<button class= "Navbar3Butt">Menu 3</button>
+					<div class= "N3Content">
+						<a href="#">M3 content 1 </a>
+						<a href="#">M3 content 2 </a>	
+						<a href="#">M3 content 3 </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

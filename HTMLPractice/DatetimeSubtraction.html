@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date Time Subtraction</title>
+
+	<script type="text/javascript">
+
+		function TimeLeft(){
+
+			
+
+			let DateA = document.getElementById("ADate").value;
+			let DateB = document.getElementById("BDate").value;
+
+			const ConvA = new Date(DateA);
+			const ConvB = new Date(DateB);
+			const diffMS = Math.abs(ConvA - ConvB);
+			const diffSec = Math.ceil(diffMS / (1000*60) )
+			const diffHours = Math.ceil(diffMS / (1000*60*60) )
+			const diffDays = Math.ceil(diffMS / (1000*60*60*24) );
+			const diffYears = Math.ceil(diffMS / (1000*60*60*24**31*12));
+			
+			console.log(diffMS + " Milliseconds");
+			console.log(diffSec + " Seconds");
+			console.log(diffHours + " Hours");
+			console.log(diffDays + " Days");
+			console.log(diffYears + " Years");
+
+			document.getElementById("TotalMilliseconds").value = diffMS;
+			document.getElementById("TotalSeconds").value = diffSec;
+			document.getElementById("TotalHours").value = diffHours;
+			document.getElementById("TotalDays").value = diffDays;
+			document.getElementById("TotalYears").value = diffYears;
+
+	
+	
+		}
+		
+
+
+	</script>
+</head>
+<body>
+	<input type="text" id="ADate">Show first date</br>
+	<input type="text" id="BDate">Show second date</br>
+	<input type="text" id="TotalMilliseconds">Time left in Milliseconds</br>
+	<input type="text" id="TotalSeconds">Time left in seconds</br>
+	<input type="text" id="TotalHours">Time left in hours</br>
+	<input type="text" id="TotalDays">Time left in days</br>
+	<input type="text" id="TotalYears">Time left in years</br>
+	<input type="button" value="=" onclick="TimeLeft()"></br>
+
+</body>
+</html>

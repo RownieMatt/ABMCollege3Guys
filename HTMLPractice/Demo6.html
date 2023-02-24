@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Button Events</title>
+
+
+	<script>
+		function OnClick(){
+			console.log("On Click");
+		}
+		function OnBlur(){
+			console.log("Text Unfocused");
+		}
+		function OnChange(){
+			console.log("Changed");
+		}
+		function OnDoubleClick(){
+			console.log("OnDoubleClick");
+		}
+		function OnLoad(){
+			console.log("Onload")
+		}
+		function OnMSCenter(){
+			console.log("Mouse not in Center")
+		}
+
+
+
+	</script>
+</head>
+<body onload="OnLoad()">
+	<button onclick="OnClick()">OnClick</button>
+	<br>
+	<input type="text" onblur="OnBlur()">Onblur</button>
+	<br>
+	<select id="Change" onchange="OnChange()">
+		<option>1</option>
+		<option>2</option>
+	</select>
+	<br>
+	<button ondblclick="OnDoubleClick()">OnDoubleClick</button>
+	<br>
+	<button onmousedown="OnMSCenter()">MouseCenter</button>
+
+
+
+</body>
+</html>

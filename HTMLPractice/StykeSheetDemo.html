@@ -1,0 +1,274 @@
+<html>
+<head>
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		*{
+			margin-bottom: 3px;
+		}
+
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<form>
+			<div class="row" id="Row1">
+				<div class="col-md-12">
+					<label><h1>Customer Order Form</h1></label>
+											<nav class="navbar" >
+						<div class="container-fluid" style="background-color: rgb(205,161,84)">
+							<span class="navbar-brand mb-0 h1">Billing Information</span>
+						</div>
+					</nav>
+				</div>
+			</div>
+																		<div class="row" id="Row2">
+				<div class="col-md-4">
+					<label for="FullName">First Name</label>
+					<input type="text" class="form-control" id="FullName" aria-describedby="emailHelp">
+				</div>
+				<div class="col-md-4">
+					<label for="MiddleName">Middle Name</label>
+					<input type="text" class="form-control" id="MiddleName" aria-describedby="emailHelp">
+				</div>
+				<div class="col-md-4">
+					<label for="LastName">Last Name</label>
+					<input type="text" class="form-control" id="LastName" aria-describedby="emailHelp">
+				</div>
+			</div>	
+			<div class="row" id="Row3">
+				<div class="col-md-8">
+					<label for="Address">Address</label>
+					<input type="text" class="form-control" id="Address" aria-describedby="emailHelp">
+				</div>
+			</div>
+			<div class="row" id="Row4">
+				<div class="col-md-4">
+					<label for="City">City</label>
+					<input type="text" class="form-control" id="City" aria-describedby="emailHelp">
+				</div>	
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="State">State</label>
+						<select class="form-control" id="State">
+							<option>Ohio</option>
+							<option>California</option>
+							<option>Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<label for="ZipCode">Zip Code</label>
+					<input type="text" class="form-control" id="ZipCode" aria-describedby="emailHelp">
+				</div>	
+			</div>
+			<div class="row" id="Row5">
+				<div class="col-md-12">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+						<label class="form-check-label" for="flexCheckDefault">
+							Check this box if your shipping address is same as your billing address
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="Row6">
+				<div class="col-md-12">
+					<nav class="navbar" >
+						<div class="container-fluid" style="background-color: rgb(205,161,84)">
+							<span class="navbar-brand mb-0 h1">Shipping Information</span>
+						</div>
+					</nav>
+				</div>
+			</div>				
+			<div class="row" id="Row7">
+				<div class="col-md-4">
+					<label for="FullName">First Name</label>
+					<input type="text" class="form-control" id="FullName" aria-describedby="emailHelp">
+				</div>
+				<div class="col-md-4">
+					<label for="MiddleName">Middle Name</label>
+					<input type="text" class="form-control" id="MiddleName" aria-describedby="emailHelp">
+				</div>
+				<div class="col-md-4">
+					<label for="LastName">Last Name</label>
+					<input type="text" class="form-control" id="LastName" aria-describedby="emailHelp">
+				</div>
+			</div>	
+			<div class="row" id="Row8">
+				<div class="col-md-8">
+					<label for="Address">Address</label>
+					<input type="text" class="form-control" id="Address" aria-describedby="emailHelp">
+				</div>
+			</div>
+			<div class="row" id="Row9">
+				<div class="col-md-4">
+					<label for="City">City</label>
+					<input type="text" class="form-control" id="City" aria-describedby="emailHelp">
+				</div>	
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="State">State</label>
+						<select class="form-control" id="State">
+							<option>Ohio</option>
+							<option>California</option>
+							<option>Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<label for="ZipCode">Zip Code</label>
+					<input type="text" class="form-control" id="ZipCode" aria-describedby="emailHelp">
+				</div>
+			</div>	
+			<div class="row" id="Row10">
+				<div class="col-md-12">
+					<nav class="navbar" >
+						<div class="container-fluid" style="background-color: rgb(205,161,84)">
+							<span class="navbar-brand mb-0 h1">Parts Information</span>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="row" id="Row11">
+				<div class="col-md-3">
+					<label for="PartName">Part Name</label>
+				</div>
+				<div class="col-md-3">
+					<label for="IDescription">Description</label>
+				</div>
+				<div class="col-md-2">
+					<label for="UnitPrice">Unit Price ($)</label>
+				</div>
+				<div class="col-md-2">
+					<label for="Quantity">Quantity</label>
+				</div>
+				<div class="col-md-2">
+					<label for="Total" style="float: right;">Total</label>
+				</div>								
+			</div>
+			<div class="row" id="Row12">
+				<div class="col-md-3">
+					<div class="form-group">
+						<select class="form-control" id="PartName">
+							<option>90-degree-elbow</option>
+							<option>45-degree-elbow</option>
+							<option>Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<input type="text" style="margin-bottom: 20px;" class="form-control" id="IDescription" aria-describedby="emailHelp">					
+				</div>
+				<div class="col-md-2">
+					<input type="text"  class="form-control" id="UnitPrice" aria-describedby="emailHelp">					
+				</div>
+				<div class="col-md-2">	
+					<input type="text" class="form-control" id="Quantity" aria-describedby="emailHelp">		
+				</div>
+				<div class="col-md-2">	
+					<p id="Total" style="float: right;" >$ 9.00 </p>		
+				</div> 
+			</div>
+			<div class="row" id="Row13">
+				<div class="col-md-3">
+					<div class="form-group">
+						<select class="form-control" id="PartName">
+							<option>CVP-Pipe</option>
+							<option>45-degree-elbow</option>
+							<option>Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<input type="text" style="margin-bottom: 20px;" class="form-control" id="IDescription" aria-describedby="emailHelp">					
+				</div>
+				<div class="col-md-2">
+					<input type="text" class="form-control" id="UnitPrice" aria-describedby="emailHelp">					
+				</div>
+				<div class="col-md-2">	
+					<input type="text" class="form-control" id="Quantity" aria-describedby="emailHelp">		
+				</div>
+				<div class="col-md-2">	
+					<p id="Total" style="float: right;">$ 28.00 </p>		
+				</div>
+			</div>
+			<div class="row" id="Row14">
+				<div class="col-md-3">
+					<div class="form-group">
+						<select class="form-control" id="PartName">
+							<option>L-Brackets</option>
+							<option>45-degree-elbow</option>
+							<option>Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<input type="text" style="margin-bottom: 20px;" class="form-control" id="IDescription" aria-describedby="emailHelp">					
+				</div>
+				<div class="col-md-2">
+					<input type="text" class="form-control" id="UnitPrice" aria-describedby="emailHelp">					
+				</div>
+				<div class="col-md-2">	
+					<input type="text" class="form-control" id="Quantity" aria-describedby="emailHelp">		
+				</div>
+				<div class="col-md-2">	
+					<p id="Total" style="float: right;" >$ 19.50 </p>		
+				</div>
+			</div>
+			<div class="row" id="Row15">
+				<div class="col-md-2">
+					<button type="button" style="margin-bottom: 20px;" class="btn btn-primary">Add</button>
+				</div>
+			</div>
+			<div class="row" id="Row16">
+				<div class="col-md-10">
+					<p style="float: left;"><b>Sub Total</b></p>
+				</div>
+				<div class="col-md-2">
+					<p style="float: right;">$ 56.50</p>
+				</div>
+			</div>
+			<div class="row" id="Row17">
+				<div class="col-md-10">
+					<p style="float: left;"><b>Total Tax (9.25%)</b></p>
+				</div>
+				<div class="col-md-2">
+					<p style="float: right;">$ 5.23</p>
+				</div>
+			</div>	
+			<div class="row" id="Row18">
+				<div class="col-md-10">
+					<p style="float: left;"><b>Total</b></p>
+				</div>
+				<div class="col-md-2">
+					<p style="float: right;">$ 61.73</p>
+				</div>
+			</div>	
+			<div class="row" id="Row19">
+				<div class="col-md-12">
+					<nav class="navbar" >
+						<div class="container-fluid" style="background-color: rgb(205,161,84)">
+							<span class="navbar-brand mb-0 h1">Payment Information</span>
+						</div>
+					</nav>
+				</div>	
+				<div class="row" id="Row20">
+					<div class="col-md-12">
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+							<label class="form-check-label" for="flexRadioDefault1">
+								<img src="Images/Credit.jpg" width="50px"; height="30px;">
+
+								Credit Card
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</form>
+	</div>
+</body>
+</html>
+
