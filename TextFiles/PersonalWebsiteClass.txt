@@ -1,0 +1,52 @@
+Class PersonalWebsite{
+int WebsiteID;
+List<WebsiteInfo> WebsiteInfo = New <WebsiteInfo>();
+List<PhotoInfo> PhotoInfo = New <PhotoInfo>();
+string objective;
+string personal_Info;
+List <EducationalDetails> EducationalDetailsInfo = New <EducationalDetails();
+string EmailAddress;
+
+getPersonalWebsite();
+getWebsiteInfo();
+getEducationalDetails();
+getPhotoInfo();
+}
+
+public List <WebsiteInfo>(){
+int WebsiteInfoID;
+int WebsiteID;
+int NumofPages;
+int pageing;
+byte[] Images;
+
+getWebsiteInfo();
+pasteImages();
+}
+
+public List <PhotoInfo>(){
+int WebsiteInfoID;
+int WebsiteID;
+int PhotoID;
+int EducationID;
+byte[] PhotoQualityDataSize;
+byte[] TotalPhotoDataSize;
+int NumofPhotos;
+float PhotoSize;
+string PhotoQuality;
+
+getPhotoInfo();
+}
+
+public List <EducationalDetails>();
+int WebsiteInfoID;
+int WebsiteID;
+int PhotoID;
+int EducationID;
+string EducationFacilityAddress;
+datetime EducationStart;
+datetime EducationEnd;
+string EducationDegree;
+
+getEducationalDetails();
+}

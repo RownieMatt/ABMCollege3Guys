@@ -1,0 +1,107 @@
+var tic1=["","",""]
+var tic2=["1","1","1"]
+var tic3=["","",""]
+
+if(tic1[0]=="1" && tic2[1]== "1" && tic3[2] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[1]=="1" && tic2[1]== "1" && tic3[1] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[1]=="1" && tic2[1]== "1" && tic3[1] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[2]=="1" && tic2[1]== "1" && tic3[0] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[1]=="1" && tic2[1]== "1" && tic3[1] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[0]=="1" && tic1[1]== "1" && tic1[2] == "1"){
+    console.log("congratulations")
+}
+else if(tic2[1]=="1" && tic2[1]== "1" && tic2[2] == "1"){
+    console.log("congratulations")
+}
+else if(tic3[1]=="1" && tic3[1]== "1" && tic3[2] == "1"){
+    console.log("congratulations")
+}
+else if(tic2[1]=="1" && tic2[1]== "1" && tic2[1] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[0]=="1" && tic2[0]== "1" && tic3[0] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[1]=="1" && tic2[1]== "1" && tic3[1] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[2]=="1" && tic2[2]== "1" && tic3[2] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[0]=="0" && tic2[1]== "0" && tic3[2] == "0"){
+    console.log("congratulations")
+}
+else if(tic1[1]=="0" && tic2[1]== "0" && tic3[1] == "0"){
+    console.log("congratulations")
+}
+else if(tic1[1]=="0" && tic2[1]== "0" && tic3[1] == "0"){
+    console.log("congratulations")
+}
+else if(tic1[2]=="0" && tic2[1]== "0" && tic3[0] == "0"){
+    console.log("congratulations")
+}
+else if(tic1[1]=="0" && tic2[1]== "0" && tic3[1] == "0"){
+    console.log("congratulations")
+}
+else if(tic1[0]=="0" && tic1[1]== "0" && tic1[2] == "0"){
+    console.log("congratulations")
+}
+else if(tic2[1]=="0" && tic2[1]== "0" && tic2[2] == "0"){
+    console.log("congratulations")
+}
+else if(tic3[1]=="0" && tic3[1]== "0" && tic3[2] == "0"){
+    console.log("congratulations")
+}
+else if(tic2[1]=="0" && tic2[1]== "0" && tic2[2] == "0"){
+    console.log("congratulations")
+}
+else if(tic1[0]=="0" && tic2[0]== "0" && tic3[0] == "0"){
+    console.log("congratulations")
+}
+else if(tic1[1]=="0" && tic2[1]== "0" && tic3[2] == "0"){
+    console.log("congratulations")
+}
+else if(tic1[2]=="0" && tic2[2]== "0" && tic3[2] == "0"){
+    console.log("congratulations")
+}
+else{
+    console.log("draw")
+}
+console.log(tic1);
+console.log(tic2);
+console.log(tic3);
+}
+else if(tic1[0]=="1" && tic1[1]== "1" && tic1[2] == "1"){
+    console.log("congratulations")
+}
+else if(tic2[1]=="1" && tic2[1]== "1" && tic2[2] == "1"){
+    console.log("congratulations")
+}
+else if(tic3[1]=="1" && tic3[1]== "1" && tic3[2] == "1"){
+    console.log("congratulations")
+}
+else if(tic2[1]=="1" && tic2[1]== "1" && tic2[2] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[0]=="1" && tic2[0]== "1" && tic3[0] == "1"){
+    console.log("congratulations")
+}
+else if(tic1[1]=="1" && tic2[1]== "1" && tic3[2] == "1"){
+    console.log("congratulations")
+}
+else{
+    console.log("draw")
+}
+console.log(tic1);
+console.log(tic2);
+console.log(tic3);

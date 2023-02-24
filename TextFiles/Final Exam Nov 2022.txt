@@ -1,0 +1,131 @@
+Question 1. Java script program , fibbonacci sequence from 1 to 50 
+
+    var TotalLength=10;
+    var first= 0;
+    var second= 1; 
+    var next;
+    
+for (var i=1 ; i <= TotalLength ; i++){
+        
+        console.log(first);
+        next = first + second;
+        first = second;
+        second = next;
+    
+}
+
+Question 2: Left Star Pattern 
+
+var levels = 5;
+var start ="";
+
+for (var column=1; column <= levels; column++){
+    for(var rows=0; rows < column; rows++ ){
+        start += '*';
+    }
+    start += "\n";
+}
+
+console.log(start);
+
+Q3. Print all prime number between 1 to 100 by javascript
+
+function allPrime(UpTo){
+    
+    if( UpTo == 1 || UpTo == 0 ){
+        return false;
+    }
+    
+    for (var count = 2; count < UpTo ; count++){
+        
+        if( UpTo % count == 0 ){
+            
+             return false;
+        }
+    }
+     return true  
+}
+
+var M = 100;
+
+for (var count = 1 ; count <= M ; count++ ){
+    if (allPrime(count)){
+        console.log(count);
+    }
+}
+
+Question 4:Make Tic Tac Toe games with atleast 5 possiblities
+
+var tic1 =['','','']
+var tic2 =['','','']
+var tic3 =['','','']
+
+if (tic1[0] == '1' && tic1[1] == '1' && tic1[2] == '1'){
+    console.log ("congratulations");
+}
+else if (tic2[0] == '1' && tic2[1] == '1' && tic2[2] == '1'){
+    console.log ("congratulations");
+}
+else if (tic3[0] == '1' && tic3[1] == '1' && tic3[2] == '1'){
+    console.log ("congratulations");
+}
+else if (tic1[0] == '1' && tic2[0] == '1' && tic3[0] == '1'){
+    console.log ("congratulations");
+}
+else if (tic1[1] == '1' && tic2[1] == '1' && tic3[1] == '1'){
+    console.log ("congratulations");
+}
+else if (tic1[2] == '1' && tic2[2] == '1' && tic3[2] == '1'){
+    console.log ("congratulations");
+}
+else if (tic1[0] == '1' && tic2[1] == '1' && tic3[2] == '1'){
+    console.log ("congratulations");
+}
+else if (tic1[2] == '1' && tic2[1] == '1' && tic3[0] == '1'){
+    console.log ("congratulations");
+}
+else if (tic1[0] == '0' && tic1[1] == '0' && tic1[2] == '0'){
+    console.log ("congratulations");
+}
+else if (tic2[0] == '0' && tic2[1] == '0' && tic2[2] == '0'){
+    console.log ("congratulations");
+}
+else if (tic3[0] == '0' && tic3[1] == '0' && tic3[2] == '0'){
+    console.log ("congratulations");
+}
+else if (tic1[0] == '0' && tic2[0] == '0' && tic3[0] == '0'){
+    console.log ("congratulations");
+}
+else if (tic1[1] == '0' && tic2[1] == '0' && tic3[1] == '0'){
+    console.log ("congratulations");
+}
+else if (tic1[2] == '0' && tic2[2] == '0' && tic3[2] == '0'){
+    console.log ("congratulations");
+}
+else if (tic1[0] == '0' && tic2[1] == '0' && tic3[2] == '0'){
+    console.log ("congratulations");
+}
+else if (tic1[2] == '0' && tic2[1] == '0' && tic3[0] == '0'){
+    console.log ("congratulations");
+}
+else{
+    console.log('draw');
+}
+Question 5:
+function factorial(num){
+    if (num < 0 ){
+        console.log("Place a positive Nnumber.");
+    }
+    else if (num == 0){
+        console.log("The factorial of" +" "+ num + " "+ "is 1");
+    }
+    else {
+        var fact = 1;
+        for (var i = 1 ; i<= num ; i++){
+            fact *= i;
+        }
+    }
+    console.log("The factorial for "+ num + " is "+ fact);
+}
+
+factorial(4)

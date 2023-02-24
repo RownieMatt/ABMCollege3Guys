@@ -1,0 +1,38 @@
+For cooking food
+Class recipe{
+int ID;
+string equipment;
+string ingredient;
+int ingredients;
+time cooktime;
+}
+
+
+The problem is I need to cook food, so I will find a recipe online and cook the food in steps.
+
+int ID for the food that I chose to cook,
+
+string ingredient for what to put into the equipment,
+
+
+Class StudentRegister{
+int studentID;
+string Name;
+string Adress;
+string EmailAdress;
+string PhoneNumber;
+
+getStudentAccount();
+}
+
+Library Record{
+int LibraryID;
+int StudentID;
+string LibraryAdress;
+string BooksBorrowed;
+DateTime ReturnBookDate;
+
+rentBook();
+returnBook();
+}
+

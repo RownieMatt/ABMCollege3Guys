@@ -1,0 +1,32 @@
+Class CustomerInfo{
+int CustomerID;
+string Name;
+string EmailAddress;
+string Phone;
+string CurrentLocation;
+float Account Balance;
+string Destination;
+
+getCustomerInfo();
+}
+
+Class UberApp{
+int UberID;
+int CustomerID;
+float AppVersion;
+string CountryVersion;
+
+getUberApp();
+}
+
+Class DriverInfo{
+int DriverID;
+int UberID;
+int CustomerID;
+string DriverName;
+string DriversLicense;
+string DriverPhone;
+string DriverCurrentLocation;
+
+getCustomerInfo();
+}

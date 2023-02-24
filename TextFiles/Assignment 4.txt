@@ -1,0 +1,157 @@
+Q1 . Move all zeros present in the array to the end
+
+Step 1: Declare Array, Numbers , and zeroes.
+
+var ListArray=['0','1','2','3','4','0'];
+
+var Numbers =[];
+var Zeroes =[];
+
+Step 2: Make a for loop for array.
+
+for (var i=0; i<= ListArray.length ; i++){
+
+Step 3: If numbers in array is different to 0, add numbers to array.
+
+if (ListArray[i] != 0 ){
+	Numbers += ListArray[i];
+}
+
+step 4: If numbers in array is equal to 0, add zeroes to array.
+
+else if (ListArray[i] == 0){
+	Zeroes += ListArray[i];
+}
+
+Step 5: Print Numbers added to Zeroes
+
+console.log(Numbers + Zeroes);
+
+Q2 . Binary Search Pseudo code and Algorithm
+
+Step 1:Declare array, Low,High and choose the element you want to search
+
+
+function BSearch(Low,High,Array,X)
+
+Step 2:Count the numbers in the array and find the middle of the array
+
+Array.count/2
+
+Step 3:If the element's index is bigger than the middle value,
+move to the right hand side , repeat to step 1 and break.
+
+High > X 
+Repeat
+Break;
+
+Step 4:If the element's index is lesser than the middle index,
+move to the left hand side, repeat to step 1 and break,
+
+Repeat
+Break;
+
+Step 5:The element you are looking for will be printed 
+
+
+Q3 . Quick Sort Pseudo code and algorithm.
+
+var array=['1','8','4','6','9']
+
+Step 1: Declare array,left and right 
+
+Step 2: Choose a number in array and compare it to left and right and sort from lowest to highest
+
+if(number > right )
+switch number with right number 
+if (number < left)
+switch
+step 3: Repeat until all values are sorted.
+
+
+
+
+Q4 . Fibonacci series pseudo Code
+
+Step 1: Declare total length, first , second, and next
+
+var TotalLength = 10;
+var First= 0;
+var second= 1;
+var next;
+
+Step 2: Make for loop with total length
+
+for (var i = 1; i <= TotalLength ; 1++){
+
+Step 3: Print first then add first and second
+
+console.log(First);
+Next= First + Second
+
+Step 4 first becomes second and second becomes next
+
+First = Second;
+Second = Next;
+
+
+Q5 . Insert element in Binary search tree.
+
+Step 1: From an array, arrange the array in a binary tree
+
+Step 2: Check if there are empty left or right children at the 1 level
+
+Step 3: If new element is larger than the biggest element , place new element on 
+the right child.
+
+Step 4: If the new element is lesser than the biggest element, sort the elements and 
+move allthe elements to the right.
+
+
+Q6 . Remove element from Queue. (Pseudo Code)
+
+Step 1: Check if queue is empty
+
+Step 2: If the queue is empty, make underflow error and exit
+
+Step 3: If the queue is not empty, access the front data
+
+Step 4: Remove front data and move the second last data to the front
+
+Q7. Pseudo code for Bubble sort.
+
+Step 1:Declare an array
+
+Step 2: Starting from the first number on the left, compare it to the next number
+
+Step 3: If the next number is lesser than the first, switch.
+
+Step 4: Repeat for the next 2 numbers until the last 2 numbers are sorted.
+
+Q8. Insert element in Stack (Pseudo Code)
+
+Step 1: Declare an Array
+
+Var array =['6'];
+
+Step 2 : insert element first into array
+
+stack.push(1);
+
+Step 3 : print array with new element
+
+console.log(array)
+
+
+
+Q9. Add element in middle in linkedlist. (Pseudo Code)
+
+Step 1: Check if the node before is invalid or zero
+
+Step 2: Make a node and place the new data in it
+
+Step 3: Make the pointer of the new node to point to the previous node's point
+
+Step 4: Make the pointer of the previous node to point to the new node
+
+Q10 . Make double linkedlist as circular linked list.

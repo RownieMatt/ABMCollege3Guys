@@ -1,0 +1,96 @@
+In Class Assignment 1
+- Harman Bhutani
+
+
+Question 1: Write pseudo code that reads two numbers and multiplies them together and print
+out their product.
+
+Step 1: Choose a number for input A
+
+input A = 1 (selecting)
+
+Step 2: Choose a number for input B
+
+input B = 2 (selecting)
+
+Step 3: Add both input A and B
+
+Sum = A + B
+
+Step 4: Print Sum
+
+Print Sum
+
+
+
+Question 2: Write pseudo code that tells a user that the number they entered is not a 5 or a 6.
+
+Step 1: Choose a number
+
+input A = 7 (selecting)
+
+Step 2: Check whether the number is 5 or 6
+
+if(Input == 5||6)
+
+Print Failure
+
+Else 
+
+Print Success
+
+Step 3: What if the number is not 5 or 6?
+
+if(Input != 5||6)
+
+Print Input
+
+Success
+
+Question 3: Write pseudo code that performs the following: Ask a user to enter a number. If the
+number is between 0 and 10, write the word blue. If the number is between 10 and 20, write the
+word red. if the number is between 20 and 30, write the word green. If it is any other number,
+write that it is not a correct color option.
+
+Step 1: Select a number
+
+input = 4 (selecting)
+
+Step 2: If input number is between 0 and 10, print blue.
+
+if(input >= 0 && input < 10)
+	print "blue"
+
+Step 3: If input number is between 10 and 20, print red.
+
+else if(input >= 10 && input < 20)
+	print "red"
+
+Step 4: If input number is between 20 and 30, print green.
+
+else if (input >= 20 && input <= 30)
+	print "green"	
+
+Step 4: If input number is less than 0 or more than 30, print "it is not a correct color option.
+
+else
+	print this "this is not a correct color option" 
+
+Question 4: Write pseudo code to print all multiples of 5 between 1 and 100 (including both 1
+and 100).
+
+Step 1: print 1
+
+print 1
+
+step 2: count all the way up to 100
+
+for i in range(1,100)
+
+step 3: check if i modulo 5 is equal to 0, if it is, print i
+
+if (i%5 == 0)
+	print i
+
+Question 5: Write pseudo code that will count all the even numbers up to a user defined
+stopping point.
