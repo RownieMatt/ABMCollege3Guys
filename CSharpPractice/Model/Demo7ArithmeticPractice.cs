@@ -23,15 +23,15 @@ namespace DemoForReal.Model
         }
         public static void Prime1to100()
         {
-            int count = 0;
-            for (int i = 1; i < 101; i++)
+            
+            for (int First = 1; First < 101; First++)
             {
-                count = 0;
-                if (i > 1)
+                int count = 0;
+                if (First > 1)
                 {
-                    for (int j = 2; j < i; j++)
+                    for (int Second = 2; Second < First; Second++)
                     {
-                        if (i % j == 0)
+                        if (First % Second == 0)
                         {
                             count = 1;
                             break;
@@ -39,7 +39,7 @@ namespace DemoForReal.Model
                     }
                     if (count == 0)
                     {
-                        Console.WriteLine(i + "  ");
+                        Console.WriteLine(First);
                     }
                 }
             }
