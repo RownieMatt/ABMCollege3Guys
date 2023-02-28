@@ -10,9 +10,9 @@ namespace DemoForReal.Model
     {
         public static void Main(string[] args)
         {
-            fnc();
+
         }
-        public static void fnc()
+        public static void MultipllicationTable()
         {
             int Num = Convert.ToInt32(Console.ReadLine());
             for (int i = 1; i <= 10; i++)
@@ -43,6 +43,21 @@ namespace DemoForReal.Model
                     }
                 }
             }
+        }
+        public static void StringAdd()
+        {
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            int sum = 0, remainder = 0;
+
+            while (num != 0)
+            {
+                remainder = num % 10;
+                sum = sum + remainder;
+                num = num / 10;
+            }
+            Console.WriteLine(sum);
+
         }
     }
 }
