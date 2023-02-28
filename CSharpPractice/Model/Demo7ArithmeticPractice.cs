@@ -59,5 +59,27 @@ namespace DemoForReal.Model
             Console.WriteLine(sum);
 
         }
+        public static void SumNNumbers()
+        {
+            int Count = Int32.Parse(Console.ReadLine());
+            int sum = 0;
+
+            for (int i = 0; i <= Count; i++)
+            {
+                sum = sum + i;
+            }
+            Console.WriteLine(sum);
+        }
+        public static void Factorial()
+        {
+            int Count = Int32.Parse(Console.ReadLine()), Result = 1;
+
+            for (int i = 1; i <= Count; i++)
+            {
+                Result = Result * i;
+            }
+            Console.WriteLine(Result);
+
+        }
     }
 }
