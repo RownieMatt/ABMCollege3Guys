@@ -1,0 +1,16 @@
+public static void ArraySort(int[] IArray)
+    {
+        Array.Sort(IArray);
+        Console.WriteLine("In Ascending Order:");
+        foreach (int x in IArray)
+        {
+            Console.WriteLine(x);
+        }
+
+        Array.Reverse(IArray);
+        Console.WriteLine("In Descending Order:");
+        foreach (int x in IArray)
+        {
+            Console.WriteLine(x);
+        }
+    }
