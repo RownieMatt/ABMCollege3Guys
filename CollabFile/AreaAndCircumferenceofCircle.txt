@@ -4,12 +4,12 @@ namespace MyCompiler {
     class Program {
         public static void Main(string[] args) 
         {
-            AreaofC(10);
+            
         }
-        public static void AreaofC(double Radius)
+     public static void CircumferenceofC(double Radius)
         {
-            double Area = Math.PI * Math.Pow(Radius,2);
-            Console.WriteLine($"Area of the radius{Radius} is {Area}.");
+            double Circumference = Math.PI * 2 * Radius;
+            Console.WriteLine($"Circumference of the radius{Radius} is {Circumference}.");
         }
     }
 }
