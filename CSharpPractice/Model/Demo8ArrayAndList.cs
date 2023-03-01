@@ -45,5 +45,33 @@ namespace DemoForReal.Model
             Console.WriteLine(x);
         }
     }
+    public static void DuplicateRemover(int[] Array)
+    {
+        for (int Num = 0; Num < Array.Length; Num++)
+        {
+            bool isDifferent = false;
+            for (int Num2 = Array.Length - 1; Num < Num2; Num2--)
+            {
+                if (Array[Num] == Array[Num2])
+                {
+                    isDifferent = true;
+                    break;
+                }
+            }
+            if (!isDifferent)
+            {
+                Console.WriteLine(Array[Num]);
+            }
+        }
+    }
+    public static void ArrayAdd(int[] Array)
+    {
+        int sum = 0;
 
+        for (int IndexCount = 0; IndexCount < Array.Length; IndexCount++)
+        {
+            sum += Array[IndexCount];
+        }
+        Console.WriteLine(sum);
+    }
 }
