@@ -1,0 +1,15 @@
+using System;
+
+namespace MyCompiler {
+    class Program {
+        public static void Main(string[] args) 
+        {
+            AreaofC(10);
+        }
+        public static void AreaofC(double Radius)
+        {
+            double Area = Math.PI * Math.Pow(Radius,2);
+            Console.WriteLine($"Area of the radius{Radius} is {Area}.");
+        }
+    }
+}
