@@ -12,5 +12,14 @@ namespace MyCompiler {
             double Circumference = Math.PI * 2 * Radius;
             Console.WriteLine($"Circumference of the radius{Radius} is {Circumference}.");
         }
+	public static void Second()
+	{
+	double radius = 10;
+double area = Math.PI * radius * radius;
+Console.WriteLine("Area of circle {0} is {1}", radius, area);
+	}
     }
 }
+
+
+
