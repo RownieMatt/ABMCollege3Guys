@@ -1,0 +1,15 @@
+using System;
+
+namespace MyCompiler {
+    class Program {
+        public static void Main(string[] args) 
+        {
+            StringReverse("hello");
+        }
+        public static void StringReverse(string Sentence)
+        {
+            string Reversed = string.Empty;
+
+        }
+    }
+}
