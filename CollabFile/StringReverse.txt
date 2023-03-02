@@ -4,12 +4,15 @@ namespace MyCompiler {
     class Program {
         public static void Main(string[] args) 
         {
-            StringReverse("hello");
+            StringReverse("my name is rownie");
         }
         public static void StringReverse(string Sentence)
         {
             string Reversed = string.Empty;
 
+	for(int i = originalString.Length - 1; i >= 0; i--){
+reverseString += originalString[i];
         }
+        Console.WriteLine($"The string in reverse is: {reverseString}"
     }
 }
