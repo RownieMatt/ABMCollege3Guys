@@ -1,1 +1,9 @@
-My Name is Rownie
+using System;
+
+public class myName
+{
+    public static void Main(string[] args)
+    {
+        string sentence = "My name is Rownie"
+    }
+}
