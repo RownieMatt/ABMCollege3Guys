@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace DemoForReal.Model
 {
+    public class Options
+    {
+        public int Id { get; set; }
+        public string Order { get; set; }
+        public double Cost { get; set; }
+
+    }
     internal class DominosMenuV2
     {
         public static void Main(string[] args)

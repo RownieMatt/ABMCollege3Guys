@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        //Console.WriteLine ("Hello Mono World");
+        List<Menu> menuList = new List<Menu>();
+        menuList.Add(new Menu(1,"Burger",2.9));
+        menuList.Add(new Menu(2,"poutine",3.9));
+        menuList.Add(new Menu(3,"Chesse",4.9));
+        foreach (var menu in menuList)
+        {
+            Console.WriteLine("Menu: {0}, {1}, {2}\n", menu.Id, menu.ItemName, menu.ItemCost);
+        }
+        string OrderPicked = Console.ReadLine();
+        for (int Index = 0 ; Index < menuList.Count ; Index++)
+        {
+            //Console.WriteLine(menuList[Index]);
+            for(int Orders = 0 ; Orders <= OrderPicked.Length-1 ; Orders++)
+            {
+                Console.WriteLine(OrderPicked[Orders]);
+                
+            }
+        }
+    }
+}
+public class Menu 
+{
+    int id;
+    string itemName;
+    double itemCost;
+    public Menu(int id, string itemName, double itemCost)
+    {
+        this.id = id;
+        this.itemName = itemName;
+        this.itemCost = itemCost;
+    }
+   public int Id
+    {
+        get { return id;  }
+        set { id = value; }
+    }
+    public string ItemName
+    {
+        get { return itemName;  }
+        set { itemName = value; }
+    }
+    public double ItemCost
+    {
+        get { return itemCost;  }
+        set { itemCost = value; }
+    }
+}
