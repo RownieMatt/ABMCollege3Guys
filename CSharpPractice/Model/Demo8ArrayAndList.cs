@@ -74,4 +74,25 @@ namespace DemoForReal.Model
         }
         Console.WriteLine(sum);
     }
+    static void WordOccurence(string[] Sentence)
+    {
+        int WordCount = 0;
+        string Empty = string.Empty;
+        var SentenceLower = Sentence.Select(s => s.ToLower()).ToArray();
+        for (int Count = 0; Count < Sentence.Length; Count++)
+        {
+            Empty += Sentence[Count] += " ";
+
+            for (int Count2 = 0; Count2 < Count; Count2++)
+            {
+                if (SentenceLower[Count] == SentenceLower[Count2])
+                {
+                    WordCount++;
+                    Console.WriteLine($"{Sentence[Count2]} = {WordCount}");
+                }
+            }
+        }
+
+        Console.WriteLine(Empty);
+    }
 }

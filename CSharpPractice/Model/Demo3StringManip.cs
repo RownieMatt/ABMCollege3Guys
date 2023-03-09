@@ -43,5 +43,17 @@ public class PhoneNumAndPostalCode
             Console.WriteLine("Type in a proper Postal Code.");
         }
     }
+    static void NoApt(string Address)
+    {
+        string[] ArrayAddressNU = Address.Split(",");
+        Console.WriteLine($"Address - {ArrayAddressNU[0]}\n City - {ArrayAddressNU[1]}\n Province - {ArrayAddressNU[2]} \n Postal Code - {ArrayAddressNU[3]}\n Country - {ArrayAddressNU[4]}\n");
+    }
+    static void YesApt(string Address)
+    {
+        char[] multiple = { ',', '-' };
+        string[] ArrayAddress = Address.Split((multiple));
+
+        Console.WriteLine($"Unit/Apt - {ArrayAddress[0]}\n Address - {ArrayAddress[1]}\n City - {ArrayAddress[2]}\n Province - {ArrayAddress[3]} \n Postal Code - {ArrayAddress[4]}\n Country - {ArrayAddress[5]}\n");
+    }
 
 }

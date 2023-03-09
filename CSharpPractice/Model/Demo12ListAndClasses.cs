@@ -64,7 +64,7 @@ public class Menu
         set { itemCost = value; }
     }
 }
-    internal class Options
+internal class Options
 {
     public int Id { get; set; }
     public string Order { get; set; }
