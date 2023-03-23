@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\C Sharp Demo\bin\Debug\net6.0\C Sharp Demo.exe
+C:\Users\Admin\source\repos\C Sharp Demo\bin\Debug\net6.0\C Sharp Demo.deps.json
+C:\Users\Admin\source\repos\C Sharp Demo\bin\Debug\net6.0\C Sharp Demo.runtimeconfig.json
+C:\Users\Admin\source\repos\C Sharp Demo\bin\Debug\net6.0\C Sharp Demo.dll
+C:\Users\Admin\source\repos\C Sharp Demo\bin\Debug\net6.0\C Sharp Demo.pdb
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\C Sharp Demo.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\C Sharp Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\C Sharp Demo.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\C Sharp Demo.AssemblyInfo.cs
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\C Sharp Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\C Sharp Demo.dll
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\refint\C Sharp Demo.dll
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\C Sharp Demo.pdb
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\C Sharp Demo.genruntimeconfig.cache
+C:\Users\Admin\source\repos\C Sharp Demo\obj\Debug\net6.0\ref\C Sharp Demo.dll

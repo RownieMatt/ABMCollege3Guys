@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Console_Demo_2\bin\Debug\net7.0\Console_Demo_2.exe
+C:\Users\Admin\source\repos\Console_Demo_2\bin\Debug\net7.0\Console_Demo_2.deps.json
+C:\Users\Admin\source\repos\Console_Demo_2\bin\Debug\net7.0\Console_Demo_2.runtimeconfig.json
+C:\Users\Admin\source\repos\Console_Demo_2\bin\Debug\net7.0\Console_Demo_2.dll
+C:\Users\Admin\source\repos\Console_Demo_2\bin\Debug\net7.0\Console_Demo_2.pdb
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\Console_Demo_2.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\Console_Demo_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\Console_Demo_2.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\Console_Demo_2.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\Console_Demo_2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\Console_Demo_2.dll
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\refint\Console_Demo_2.dll
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\Console_Demo_2.pdb
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\Console_Demo_2.genruntimeconfig.cache
+C:\Users\Admin\source\repos\Console_Demo_2\obj\Debug\net7.0\ref\Console_Demo_2.dll

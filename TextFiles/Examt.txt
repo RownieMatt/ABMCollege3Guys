@@ -1,0 +1,164 @@
+Suppose you are given the following requirements for a simple database for the National
+Hockey League (NHL):
+· the NHL has many teams,
+· each team has a name, a city, a coach, a captain, and a set of players,
+· each player belongs to only one team,
+· each player has a name, a position (such as left wing or goalie), a skill level, and a set
+of injury records,
+· a team captain is also a player,
+· a game is played between two teams (referred to as host_team and guest_team) and
+has a date (such as May 11th, 1999) 
+Construct a Ebntity realtionship diagram and concise ER diagram for the NHL. Show C# classes and Drawing of the same in Draw.io
+ List your assumptions and clearly indicate the cardinality mappings
+as well as any role indicators in your ER diagram.
+
+
+public class Match
+{
+	bigint MatchID(P);
+	bigint teamID(F);
+	varchar(max) Host_Team;
+	varchar(max) Guest_Team;
+	varchar(max) Captain;
+	varchar(max) Venue;
+	DateTime MatchDate;
+	varchar(max) AddedBy;
+	DateTime AddedOn;
+	varchar(max) ModifiedBy;
+	DateTime ModifiedOn;
+}
+public class Team
+{
+	bigint teamID(P);
+	bigint PlayerID(F);
+	bigint MatchID(F);
+	varchar(max) TeamName;
+	varchar(max) Coach;
+	varchar(max) Captain;
+	varchar(max) City;
+	int players;
+	varchar(max) AddedBy;
+	DateTime AddedOn;
+	varchar(max) ModifiedBy;
+	DateTime ModifiedOn;
+}
+
+public class Players
+{
+	bigint PlayerID(P);
+	bigint InjuryID(F);
+	bigint teamID(F);
+	varchar(max) PlayerName;
+	varchar(max) Postion;
+	varchar(max) PlayerName;
+	double SkillLevel;
+	bool isCaptain;
+	varchar(max) AddedBy;
+	DateTime AddedOn;
+	varchar(max) ModifiedBy;
+	DateTime ModifiedOn;
+}
+public class InjuryRecord
+{
+	bigint InjuryID(P);
+	bigint PlayerID(F);
+	varchar(max) Injury;
+	int Injuries;
+	bool isRecovered;
+	DateTime InjuryOn;
+	varchar(max) AddedBy;
+	DateTime AddedOn;
+	varchar(max) ModifiedBy;
+	DateTime ModifiedOn;
+}
+
+A university registrar's office maintains data about the following entities: (a)
+courses, including number, title, credits, syllabus, and prerequisites; (b) course
+offerings, including course number, year, semester, section number, instructor(s),
+timings, and classroom; (c) students, including student-id, name, and program;
+and (d) instructors, including identification number, name, department, and title. 
+Further, the enrollment of students in courses and grades awarded to students in each course they are enrolled for must be appropriately modeled.
+Construct an E-R diagram for the registrar's office. Document all assumptions
+that you make about the mapping constraints.
+
+And make C# Classes for the same.
+
+class Courses 
+{
+	bigint CoursesID(P);
+	bigint CourseOfferID(F);
+	varchar(max) CourseName;
+	int credits;
+	varchar(max) syllabus;
+	varchar(max) PrerequisiteCourses;
+	DateTime AddedOn;
+	varchar(max) AddedBy;
+	DateTime ModifiedOn;
+	varchar(max) ModifiedBy;
+}
+class CourseOffering
+{
+	bigint CourseOfferID(P);
+	bigint CoursesID(F);
+	bigint InstructorID(F);
+	bigint StudentID(F);
+	varchar(max) CourseName;
+	varchar(max) Instructor;
+	varchar(max) ClassRoom;
+	DateTime StartingDate;
+	DateTime EndingDate;
+	int Semester;
+	int SectionNumber;
+	DateTime AddedOn;
+	varchar(max) AddedBy;
+	DateTime ModifiedOn;
+	varchar(max) ModifiedBy;
+	
+}
+class Instructor
+{
+	bigint InstructorID(P);
+	bigint CourseOfferID(F);
+	bigint StudentID(F);
+	varchar(max) InstructorName;
+	varchar(max) Department;
+	varchar(max) Title;
+	int Semester;
+	int SectionNumber;
+	DateTime AddedOn;
+	varchar(max) AddedBy;
+	DateTime ModifiedOn;
+	varchar(max) ModifiedBy;
+	
+}
+class Students
+{
+	bigint StudentID(P);
+	bigint InstructorID(F);
+	bigint CourseOfferID(F);
+	bigint CoursesID(F);
+	bigint GradesID(F);
+	varchar(max) StudentName;
+	DateTime AddedOn;
+	varchar(max) AddedBy;
+	DateTime ModifiedOn;
+	varchar(max) ModifiedBy;
+	
+}
+class Grades
+{
+	bigint Grades(P);
+	bigint StudentID(F);
+	bigint InstructorID(F);
+	bigint CoursesID(F);
+	
+	varchar(max) CourseDone;
+	int CoursesDone;
+	varchar(max) Grades;
+	DateTime AddedOn;
+	varchar(max) AddedBy;
+	DateTime ModifiedOn;
+	varchar(max) ModifiedBy;
+	
+}
+

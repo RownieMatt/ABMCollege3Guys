@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\bin\Debug\net7.0-windows\WindowsFormDemos.exe
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\bin\Debug\net7.0-windows\WindowsFormDemos.deps.json
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\bin\Debug\net7.0-windows\WindowsFormDemos.runtimeconfig.json
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\bin\Debug\net7.0-windows\WindowsFormDemos.dll
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\bin\Debug\net7.0-windows\WindowsFormDemos.pdb
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.Form1.resources
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.AssemblyInfo.cs
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.dll
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\refint\WindowsFormDemos.dll
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.pdb
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\WindowsFormDemos.genruntimeconfig.cache
+C:\Users\Admin\source\repos\WindowsFormDemos\WindowsFormDemos\obj\Debug\net7.0-windows\ref\WindowsFormDemos.dll

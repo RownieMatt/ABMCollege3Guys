@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\DemoNet\DemoNet\bin\Release\DemoNet.exe.config
+C:\Users\Admin\source\repos\DemoNet\DemoNet\bin\Release\DemoNet.exe
+C:\Users\Admin\source\repos\DemoNet\DemoNet\bin\Release\DemoNet.pdb
+C:\Users\Admin\source\repos\DemoNet\DemoNet\obj\Release\DemoNet.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\DemoNet\DemoNet\obj\Release\DemoNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\source\repos\DemoNet\DemoNet\obj\Release\DemoNet.Form1.resources
+C:\Users\Admin\source\repos\DemoNet\DemoNet\obj\Release\DemoNet.Properties.Resources.resources
+C:\Users\Admin\source\repos\DemoNet\DemoNet\obj\Release\DemoNet.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\DemoNet\DemoNet\obj\Release\DemoNet.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoNet\DemoNet\obj\Release\DemoNet.exe
+C:\Users\Admin\source\repos\DemoNet\DemoNet\obj\Release\DemoNet.pdb

@@ -1,0 +1,385 @@
+
+Write a program to  reverse a string in C#.
+
+Input : I am new to Class?
+Output ?ssalC ot wen ma I
+
+using System;
+class ReverseString {
+  static void Main()
+  {
+    StringReverse();
+  }
+  static void StringReverse()
+  {
+      Console.WriteLine("Please type in the string you want to reverse");
+      string String = Console.ReadLine();
+      string Empty = string.Empty;
+      for(int Count = String.Length-1 ; Count >= 0 ; Count -- )
+      {
+          Empty += String[Count];
+      }
+      Console.WriteLine($"Reversed string :{Empty}\n");
+  }
+}
+
+
+IN C# Show how to  remove duplicate characters from a string?
+
+Input = "Basant Gera"
+
+Output = "Bsnt Ge"
+
+
+using System;
+using System.Collections.Generic;
+class DuplicateRemove 
+{
+    public static void Main(String[] args)
+    {
+        Console.WriteLine("Write you string here.\n")
+        string String = Console.ReadLine();
+        char []StringChar = String.ToCharArray();
+        int StringLength = StringChar.Length;
+        Console.WriteLine(removeDuplicate(StringChar, StringLength));
+    }
+    static String removeDuplicate(char []str, int n)
+    {
+        int index = 0;
+      
+        for (int i = 0; i < n; i++)
+        {
+      
+            
+            for (int j ; j = 0; j < i; j++) 
+            {
+                if (str[i] == str[j])
+                {
+                    break;
+                }
+            }
+            if (j == i) 
+            {
+                str[index++] = str[i];
+            }
+        }
+        char [] ans = new char[index];
+        Array.Copy(str, ans, index);
+        return String.Join("", ans);
+    }
+}
+  
+
+
+
+
+
+
+
+
+
+Write a program to  How to find if the given string is a palindrome or not?
+
+
+Input : 1221
+
+If Input is 1221 which is palindrome then you will write the following string
+
+
+The given string is palindrome
+
+
+using System;
+class Palindrome
+{
+    static void Main()
+    {
+        isPalindrome();
+    }
+    static void isPalindrome()
+    {
+        Console.WriteLine("Please type in the string you want to check if it is a palindrome or not: \n");
+        string String = Console.ReadLine();
+        bool isPalindrome = false;
+        string StringLowered = String.ToLower();
+        for(int Count1 = 0 ; Count1 < String.Length ; Count1 ++)
+        {
+            for(int Count2 = String.Length-1 ; Count2 >= Count1; Count2 -- )
+            {
+                if (StringLowered[Count1] == StringLowered[Count2])
+                {
+                    isPalindrome = true;
+                }
+            }
+        }
+        if(isPalindrome)
+        {
+            Console.WriteLine($"{String} is a palindrome." );
+        }
+        else
+        {
+            Console.WriteLine($"{String} is a palindrome." ) ;
+        }
+    }
+}
+
+Write a program to  how to count the occurrence of each character in a string?
+
+
+Input : "Basant"
+B : 1
+A : 2
+S : 1
+N : 1
+T : 1
+
+
+
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        LetterCount();
+    }
+    public static void LetterCount()
+    {
+        string String = Console.ReadLine();
+        string StringL = String.ToLower();
+        Console.WriteLine($"{StringL}");
+         while (StringL.Length > 0) {
+         Console.Write($"{StringL[0]} = ");
+         int Count = 0;
+         for (int j = 0; j < StringL.Length; j++) {
+            if (StringL[0] == StringL[j]) {
+               Count++;
+            }
+         }
+         Console.WriteLine(Count);
+         StringL = StringL.Replace(StringL[0].ToString(), string.Empty);
+    }
+   }
+ }
+
+Show the binary Search Between the below array 
+
+[1,2,3,4,5,6,7,8,9,10]. The Search will start from middle and the element I am searching is 9.
+
+Show your element in C# how will you conclude the search on your end.
+
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    
+    namespace DemoForReal.Model
+    {
+        internal class BinarySearch
+        {
+            public static void Main(string[] args)
+            {
+                int[] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 };
+    
+                BinarySearch(Numbers, 3);
+                BinarySearch(Numbers, 9);
+                BinarySearch(Numbers, 8);
+    
+    
+    
+            }
+            public static void BinarySearch(int[] Array, int Search)
+            {
+                int Middle = (Array.Length / 2);
+                Console.WriteLine($"Middle is : {Array[Middle]}");
+                Console.WriteLine($"Search Number is : {Search}");
+                if (Middle > Search)
+                {
+                    for (int Count = 0; Count < Array[Middle] - 1; Count++)
+                    {
+                        Console.WriteLine(Array[Count]);
+    
+                    }
+                }
+                else if (Middle < Search - 1)
+                {
+                    for (int Mcount = Array[Middle]; Mcount < Array.Length; Mcount++)
+                    {
+                        Console.WriteLine(Array[Mcount]);
+    
+                    }
+    
+                }
+                else if (Array[Middle] == Search)
+                {
+                    Console.WriteLine($"Number {Search} is already found,");
+    
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+Print me the bill for Ikea furunire system in C#.
+
+It should inculde the following things.
+
+1. Welcome to Ikea Montreal, Ottawa, Calagry
+2.Items , Cost and Qty 
+3. Adding the same 
+4. Show taxes based on provinces
+5. You can pickup on your own car or you can order the same on their online website.
+6. Every purchare would have a cost assoicated to that like tax based on province (Montreal-10 % on the bill,Calagry 5 % and Ottawa 18%)
+7. Delivery charges if done online should be their 3% of the bill.
+8.Show sub cost and all charges and in last total cost and print the bill.
+
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+namespace DemoForReal.Model
+{
+    public class Options
+    {
+        public int Id { get; set; }
+        public string Order { get; set; }
+        public double Cost { get; set; }
+
+    }
+    internal class IkeaFurniture
+    {
+        public static void Main(string[] args)
+        {
+            List<Options> MenuOptions = new List<Options>()
+            {
+                new Options () { Id = 1 , Order = "Lawn Chair" ,Cost = 10.99},
+                new Options () { Id = 2 , Order = "Large Couch" ,Cost = 10.99},
+                new Options () { Id = 3 , Order = "Dining Table" ,Cost = 8.99},
+                new Options () { Id = 4 , Order = "Queen sized bed" ,Cost = 12.99},
+                new Options () { Id = 5 , Order = "Table Lamp" ,Cost = 6.99},
+                new Options () { Id = 6 , Order = "Single Bed" ,Cost = 6.99},
+                new Options () { Id = 7 , Order = "Dining Table Chair" ,Cost = 5.99},
+                new Options () { Id = 8 , Order = "10 pcs Wood Cup" ,Cost = 5.99},
+                new Options () { Id = 9 , Order = "Drawer" ,Cost = 4.99},
+                new Options () { Id = 10 , Order = "Standing Lamp Shade" ,Cost = 3.99},
+            };
+            string Province = SelectProvince();
+            bool RealDelivery = PickUpOrDeliver();
+            MenuTotal(MenuOptions, RealDelivery, Province);
+
+        }
+        public static string SelectProvince()
+        {
+            Console.WriteLine("-----Welcome to Ikea-------\n");
+            Console.WriteLine("Which Province are you living in?\n");
+            Console.WriteLine("1.Calgary   2.Montreal 3. Ottawa\n");
+            string WhatProvince = Console.ReadLine();
+            Console.WriteLine($"You chose : {WhatProvince}");
+
+            if (WhatProvince == "1")
+            {
+                Console.WriteLine("Calgary is selected.");
+            }
+            else if (WhatProvince == "2")
+            {
+                Console.WriteLine("Montreal is selected.");
+            }
+            else if (WhatProvince == "3")
+            {
+                Console.WriteLine("Ottawa is selected.");
+            }
+            else
+            {
+            Console.WriteLine("Please enter from 1 to 3\n");
+            return SelectProvince();
+            }
+            return WhatProvince;
+
+        }
+        public static bool PickUpOrDeliver()
+        {
+            Console.WriteLine("Are you picking your furniture up ? \n");
+            Console.WriteLine("Yes or No \n");
+            string Delivery = Console.ReadLine();
+            bool isDelivery = true;
+            if (Delivery == "Yes")
+            {
+                Console.WriteLine("You chose to pick your furniture up.\n");
+            }
+            else if (Delivery == "No")
+            {
+
+                Console.WriteLine("You chose to have your furniture Delivered. \n");
+                isDelivery = false;
+            }
+            else
+            {
+                Console.WriteLine("Please choose Yes or No \n");
+                return PickUpOrDeliver();
+            }
+            return isDelivery;
+        }
+
+        public static double MenuTotal(List<Options> options, bool Deliver, string WhichProvince)
+        {
+            Console.WriteLine("------Ikea furniture------\n");
+            foreach (var options1 in options)
+            {
+                Console.WriteLine($"{options1.Id}: {options1.Order}___________${options1.Cost}\n");
+            }
+            Console.WriteLine("Please type in your order number with spaces between numbers.(Example: 1 2 3 4 5)\n");
+            string SelectedOptions = Console.ReadLine();
+            string[] SelectedArray = SelectedOptions.Split(" ");
+            double Costs = 0;
+            Console.WriteLine("You Ordered:\n");
+            for (int Orders = 0; Orders < SelectedArray.Length; Orders++)
+            {
+                foreach (var options1 in options)
+                {
+                    if (options1.Id == Convert.ToInt32(SelectedArray[Orders]))
+                    {
+
+                        Console.WriteLine($"{options1.Id}: {options1.Order}___________${options1.Cost}\n");
+                        Costs += options1.Cost;
+
+                    }
+                }
+            }
+
+            Console.WriteLine($"The Subtotal is ${Costs}");
+            if (Deliver == false)
+            {
+                Console.WriteLine("Delivery charge : $3 ");
+                Costs += 3;
+            }
+            if (WhichProvince == "1")
+            {
+                Console.WriteLine("Provincial Tax : 5% ");
+                Costs += (Costs * 0.05);
+            }
+            if (WhichProvince == "2")
+            {
+                Console.WriteLine("Provincial Tax : 10% ");
+                Costs += (Costs * 0.10);
+            }
+            if (WhichProvince == "3")
+            {
+                Console.WriteLine("Provincial Tax : 18%");
+                Costs += (Costs * 0.18);
+            }
+
+            Console.WriteLine($"The Total is ${Costs}");
+            return Costs;
+        }
+    }
+}
+
+
+

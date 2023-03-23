@@ -1,0 +1,18 @@
+C:\Users\Admin\source\repos\Login Screen\Login Screen\bin\Debug\net7.0-windows\Login Screen.exe
+C:\Users\Admin\source\repos\Login Screen\Login Screen\bin\Debug\net7.0-windows\Login Screen.deps.json
+C:\Users\Admin\source\repos\Login Screen\Login Screen\bin\Debug\net7.0-windows\Login Screen.runtimeconfig.json
+C:\Users\Admin\source\repos\Login Screen\Login Screen\bin\Debug\net7.0-windows\Login Screen.dll
+C:\Users\Admin\source\repos\Login Screen\Login Screen\bin\Debug\net7.0-windows\Login Screen.pdb
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login Screen.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login Screen.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login Screen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login Screen.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login Screen.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login Screen.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login Screen.dll
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\refint\Login Screen.dll
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login Screen.pdb
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login Screen.genruntimeconfig.cache
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\ref\Login Screen.dll
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login_Screen.ForgotPass.resources
+C:\Users\Admin\source\repos\Login Screen\Login Screen\obj\Debug\net7.0-windows\Login_Screen.LoginScreen.resources

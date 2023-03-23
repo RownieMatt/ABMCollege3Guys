@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\DemoDB\DemoDB\bin\Debug\net7.0-windows\DemoDB.exe
+C:\Users\Admin\source\repos\DemoDB\DemoDB\bin\Debug\net7.0-windows\DemoDB.deps.json
+C:\Users\Admin\source\repos\DemoDB\DemoDB\bin\Debug\net7.0-windows\DemoDB.runtimeconfig.json
+C:\Users\Admin\source\repos\DemoDB\DemoDB\bin\Debug\net7.0-windows\DemoDB.dll
+C:\Users\Admin\source\repos\DemoDB\DemoDB\bin\Debug\net7.0-windows\DemoDB.pdb
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.Form1.resources
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.AssemblyInfo.cs
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.dll
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\refint\DemoDB.dll
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.pdb
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\DemoDB.genruntimeconfig.cache
+C:\Users\Admin\source\repos\DemoDB\DemoDB\obj\Debug\net7.0-windows\ref\DemoDB.dll
